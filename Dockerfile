@@ -11,9 +11,9 @@ RUN cd /src && \
     mv /src/entrypoint.sh /entrypoint.sh && chmod +x /entrypoint.sh && \
     mv /src/PgsToSrt/out /app
 
-ENV LANGUAGE=eng
-ENV INPUT=/input.sup
-ENV OUTPUT=/output.srt
+#ENV LANGUAGE=eng
+#ENV INPUT=/input.sup
+#ENV OUTPUT=/output.srt
 VOLUME /tessdata
 
 # Docker for Windows: EOL must be LF.
